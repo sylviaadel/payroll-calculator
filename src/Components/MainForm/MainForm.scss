@@ -1,0 +1,40 @@
+.form{
+    padding: 1rem;
+    .form-group{
+        margin-bottom: 15px;
+        label{
+            display: block;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        input, select{
+            border: solid 1px #d3e0e3;
+            height: 35px;
+            padding: 0 5px;
+            line-height: 35px;
+            border-radius: 4px;
+            width: 100%;
+            color: #999;
+            box-sizing: border-box;
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+    button{
+        background-color: #0091b2;
+        border:0;
+        width:100%;
+        color: #fff;
+        height: 40px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    h3{
+        span{
+            color: #0091b2;
+        }
+    }
+}
